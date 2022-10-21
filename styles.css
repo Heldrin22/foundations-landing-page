@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.fdmt {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.fdst {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.hlinks {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    gap: 16px;
+   
+    border: 2px dashed green;
+}
+
+.signup-button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.h1pbt {
+    align-self: center;
+}
+
+.hlinks a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.first-div {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    
+}
+
+.header-div1 {
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    order: -1;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    justify-content: space-around;
+    font-size: 16px;
+    border: 5px dashed green;
+   
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100yh;
+    font-family: Roboto, sans-serif;
+}
+
+.elk1 {
+    height: 50px;
+    width: auto;
+    border: none;
+    border-radius: 12px;
+}
+
+.mainimg {
+    height: 300px;
+    width: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: none;
+    border-radius: 12px;
+}
