@@ -4,6 +4,7 @@
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin: 0;
 }
 
 .fdst {
@@ -18,7 +19,7 @@
     margin: 0;
     padding: 10px;
     gap: 16px;
-   
+
     border: 2px dashed green;
 }
 
@@ -33,6 +34,9 @@
 
 .h1pbt {
     align-self: center;
+    width: 600px;
+    min-width: 100px;
+
 }
 
 .hlinks a {
@@ -43,8 +47,9 @@
 .first-div {
     display: flex;
     justify-content: center;
-    margin: 100px;
-    
+    margin: 60px;
+
+
 }
 
 .header-div1 {
@@ -64,8 +69,8 @@
     justify-content: space-around;
     font-size: 16px;
     border: 5px dashed green;
-   
-    
+
+
 }
 
 body {
@@ -84,10 +89,60 @@ body {
 }
 
 .mainimg {
-    height: 300px;
+    height: 350px;
     width: auto;
     margin-left: 100px;
     margin-right: 100px;
     border: none;
     border-radius: 12px;
+    align-self: center;
 }
+
+.img-list-info-img {
+    height: 200px;
+    width: 200px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.second-div {
+    margin: 100px;
+}
+
+.second-div-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: wrap;
+    text-align: center;
+    font-size: large;
+}
+
+.image-list-text {
+    text-align: center;
+    margin-top: -15px;
+}
+
+.third-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
