@@ -48,8 +48,7 @@
     display: flex;
     justify-content: center;
     margin: 60px;
-
-
+    margin-top: 50px;
 }
 
 .header-div1 {
@@ -91,8 +90,8 @@ body {
 .mainimg {
     height: 350px;
     width: auto;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 70px;
+    margin-right: 0px;
     border: none;
     border-radius: 12px;
     align-self: center;
@@ -125,6 +124,7 @@ body {
     flex: wrap;
     text-align: center;
     font-size: large;
+    margin-bottom: -50px;
 }
 
 .image-list-text {
@@ -133,16 +133,30 @@ body {
 }
 
 .third-div {
+    background: #E5E7EB;
+}
+
+.third-div-text {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #E5E7EB;
+    justify-content: space-between;
     flex-direction: column;
+    margin: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+    
 }
 
 .quote {
     font-size: 36px;
-    font-weight: lighter;
+    font-style: italic;
     color: #1F2937;
+    font-weight: 300px;
+}
+
+.author {
+    margin-top: -40px;
+    font-size: 24px;
+    font-weight: bolder;
+    align-self:flex-end;
 }
 
